@@ -1,0 +1,159 @@
+<html>
+    <header>
+        <title>
+            Sản phẩm
+        </title>
+         <link rel="canonical" href="http://www.thtrue.vn/">
+        <link rel="alternate" href="http://www.thtrue.vn/" hreflang="vi-vn">
+        <style type="text/css"> html{background: none repeat scroll center top #FFFFFF; }
+        </style>
+        <meta charset="utf-8">
+        <meta name="viewpost" content="with=divece" intial-scale="1.0"/>
+        <link rel="stylesheet" href="san pham.css">
+    </header>
+    <body>
+        <div class="d">
+            <div class="container">
+                <div class="header">
+                    <div class="image"> <a href="homepage.html"><img src="logoTH.gif" width="130"> </a></div>
+                </div>
+            </div>
+                <div class="nav">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="qtsx.html">Quy trình sản xuất</a></li>
+                            <li><a href="san pham.html">Sản phẩm</a></li>
+                            <li><a href="mua hang.html">Mua hàng</a></li> 
+                        </ul>
+                    </div>
+                    <div class="search">
+                        <form>
+                            <input type="search" size="50" placeholder="Search.....">
+                            <button>Tìm kiếm</button>
+                        </form>
+                    </div>
+                </div>
+        </div>
+            <div class="display-container">
+              <img class="mySlides3" src="sanpham1.jpg">
+              <img class="mySlides3" src="sanpham2.jpg">
+              <img class="mySlides3" src="sanpham3.jpg">
+              <img class="mySlides3" src="sanpham4.jpg">
+            
+              <button class="image-button button-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="image-button button-right" onclick="plusDivs(1)">&#10095;</button>
+            
+              <div class="badge" style="width:100%">
+            
+                <span class="image-badge" onclick="currentDiv(1)"></span>
+                <span class="image-badge" onclick="currentDiv(2)"></span>
+                <span class="image-badge" onclick="currentDiv(3)"></span>
+                <span class="image-badge" onclick="currentDiv(4)"></span>
+              </div>
+            </div>
+            
+            <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function currentDiv(n) {
+              showDivs(slideIndex = n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides3");
+              var dots = document.getElementsByClassName("image-badge");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" badge-white", "");
+              }
+              x[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " badge-white";
+            }
+            </script>
+        <div class="fix1">
+            <div class="title1" style="margin-top:100px;"><span>Nước uống sữa trái cây</span></div>
+            <div class="clear"></div>
+            <div class="centent">
+                <p>
+                Từ sữa tươi sạch của trang trại TH, cùng trái cây tự nhiên giàu vitamin và khoáng chất, được nhập khẩu từ các vùng nguyên liệu nổi tiếng mang đến vị ngon và nguồn dưỡng chất hoàn toàn từ thiên nhiên
+                </p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="content1">
+            <div class="col1">
+                <div class="img"><a href="cam.html"><img src="sua-cam.png" width="70%"></a></div>
+                    <div class="name">TH true JUICE milk Cam Tự Nhiên</div>
+                    <div class="font">sữa bò tươi, nước cam ép</div>
+                </div>
+                <div class="col1">
+                    <div class="img"><a href="dautay.html"><img src="juice-dau.png" width="70%"></a></div>
+                    <div class="name">TH true JUICE milk Dâu Tự Nhiên</div>
+                    <div class="font">sữa bò tươi, nước dâu ép</div>
+                </div>
+                <div style="clear:both"></div>
+                <div class="title1" style="margin-top:100px;"><span>Nước trái cây</span></div>
+                <div class="col1">
+                    <div class="img"><a href="OI.html"><img src="juice-oi.png" width="70%"></a></div>
+                    <div class="name">TH true JUICE drink Ổi Tự Nhiên</div>
+                    <div class="font">12% ổi puree</div>
+                </div>
+                <div class="col1">
+                    <div class="img"><a href="Xoai.html"><img src="juice-xoai.png" width="70%"></a></div>
+                    <div class="name">TH true JUICE nectar Xoài Tự Nhiên</div>
+                    <div class="font"></div>
+                </div>
+                <div class="col1">
+                    <div class="img"><a href="cam ep.html"><img src="juice-cam.png" width="70%"></a></div>
+                    <div class="name">TH true JUICE Cam Tự Nhiên</div>
+                    <div class="font">99,94% nước cam ép</div>
+                </div>
+                <div class="col1">
+                    <div class="img"><a href="tao.html"><img src="juice-tao.png" width="70%"></a></div>
+                    <div class="name">TH true JUICE Táo Tự Nhiên</div>
+                    <div class="font">99,96% nước táo ép</div>
+                </div>
+                <div style="clear:both"></div>
+                <div style="margin-top:100px">
+                    <div class="col1" style="margin-left:25%">
+                        <div class="img"><a href="tao dao.html"><img src="juice-tao-dao.png" width="70%"></a></div>
+                        <div class="name">TH true JUICE Táo Đào Tự Nhiên</div>
+                        <div class="font">96,73% nước táo ép; 3,2% nước đào ép</div>
+                    </div>
+                    <div class="col1">
+                        <div class="img"><a href="tao gac.html"><img src="juice-tao-gac.png" width="70%"></a></div>
+                        <div class="name">TH true JUICE Táo Gấc Tự Nhiên</div>
+                        <div class="font">99,7% nước táo ép; 0,25% gấc</div>
+                    </div>
+                </div>
+                <div style="clear:both"></div>
+                <div class="title1" style="margin-top:100px;"><span>Nước trái cây xay</span></div>
+                <div class="col1" style="margin-left:1%">
+                    <div class="img"><a href="xoai chuoi.html"><img src="juice-xoai-chuoi.png" width="70%"></a></div>
+                    <div class="name">TH true JUICE smoothie Xoài Chuối Tự Nhiên</div>
+                    <div class="font">13% xoài puree; 11,3% chuối puree</div>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <div class="footer">
+            <div class="font1">Add: 390/3 Phan Huy Ích,P.12,Q.Gò Vấp</div>
+            <div class="font1">Tel: 0373727834</div>
+            <div class="font1">Mail: teatea29923@gmail.com</div>
+            <div class="font2">Creted By @@ Thi Tấn Phát\ Trương Thành Hiếu\ Nguyễn Sỹ Trà\ Phạm Huế Trân\ Lê Trọng Minh @@ All Rights Reserved</div>
+
+        </div>    
+        </div>
+    
+    </body>
+</html>
+
